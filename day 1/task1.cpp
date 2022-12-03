@@ -16,7 +16,6 @@ int main(){
 
     std::fstream fs ("input.txt", std::fstream::in);
 
-    std::cout << "Test 1";
     if (fs.is_open()) {
         while(std::getline(fs, line)) {
 
